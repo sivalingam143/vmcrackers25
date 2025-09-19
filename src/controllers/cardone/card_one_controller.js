@@ -103,7 +103,7 @@ const ProductController = () => {
       }),
     })
       .then((response) => {
-        console.log(response.text);
+        console.log("products", response.text);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -134,7 +134,7 @@ const ProductController = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        console.log("product", data);
         setcatgory(data.body.category);
       })
       .catch((error) => {
