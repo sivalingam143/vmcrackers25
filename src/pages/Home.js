@@ -97,7 +97,7 @@ const Home = () => {
               </Col>
               <Col lg="6" className="py-3" data-aos="fade-left">
                 <img
-                  src={require("../assets/images/clif.jpg")}
+                  src={require("../assets/images/home+image.jpg")}
                   className="img-fluid"
                   alt="product name"
                 />
