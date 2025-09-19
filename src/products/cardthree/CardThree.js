@@ -522,7 +522,7 @@ const CardThree = ({
                                       </td>
                                       <td>
                                         <div className="total_price bold">
-                                          <Input
+                                          <Input2
                                             value={(
                                               (product.discount_lock === 0
                                                 ? product.price -
@@ -1376,7 +1376,15 @@ const Input = styled.input`
   border: none;
   outline: none;
   padding: 4px;
-  width: 60px;
+  width: 50px;
+  text-align: center;
+  background: transparent;
+`;
+const Input2 = styled.input`
+  border: none;
+  outline: none;
+  padding: 4px;
+  width: 50%;
   text-align: center;
   background: transparent;
 `;
