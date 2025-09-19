@@ -29,7 +29,7 @@ const ContactUs = () => {
           <Col xs={12} sm={12} md={12} lg={12} className="py-3">
             <h1 className="bold black text-center"> Contact Us</h1>
           </Col>
-          <Col lg="4" md="12" className="py-3">
+          <Col lg="6" md="12" className="py-3">
             <div className="box">
               <div className="box-icon">
                 <PiMapPinSimpleAreaBold size={40} color={"#000"} />
@@ -37,7 +37,7 @@ const ContactUs = () => {
               <div className="bold"> Kazhugumalai Main Road , Vembakottai</div>
             </div>
           </Col>
-          <Col lg="4" className="py-3">
+          <Col lg="6" className="py-3">
             <div className="box">
               <div className="box-icon">
                 <BiPhoneCall size={40} color={"#000"} />
@@ -48,7 +48,7 @@ const ContactUs = () => {
               </div>
             </div>
           </Col>
-          <Col lg="4" className="py-3">
+          {/* <Col lg="4" className="py-3">
             <div className="box">
               <div className="box-icon">
                 <MdOutlineAlternateEmail size={40} color={"#000"} />
@@ -57,7 +57,7 @@ const ContactUs = () => {
                 <div className="bold"> vmcrackers@gmail.com</div>
               </div>
             </div>
-          </Col>
+          </Col> */}
 
           <Col lg="12" md="12" xs="12" className="py-5">
             <>
