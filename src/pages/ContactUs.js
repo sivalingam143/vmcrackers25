@@ -34,10 +34,7 @@ const ContactUs = () => {
               <div className="box-icon">
                 <PiMapPinSimpleAreaBold size={40} color={"#000"} />
               </div>
-              <div className="bold">
-                {" "}
-                Peranayakkanpatti, Sivakasi, Tamil Nadu 626128
-              </div>
+              <div className="bold"> Kazhugumalai Main Road , Vembakottai</div>
             </div>
           </Col>
           <Col lg="4" className="py-3">
@@ -46,7 +43,8 @@ const ContactUs = () => {
                 <BiPhoneCall size={40} color={"#000"} />
               </div>
               <div>
-                <li className="bold">+91 99424 16562</li>
+                <li className="bold">+91 63698 09391</li>
+                <li className="bold">+91 89402 23892</li>
               </div>
             </div>
           </Col>
@@ -64,7 +62,7 @@ const ContactUs = () => {
           <Col lg="12" md="12" xs="12" className="py-5">
             <>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7872.414113087703!2d77.781204!3d9.40322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06c906a5ce2bd9%3A0x67ae173b9ac751a4!2sGuru%20Bhagavan%20Crackers!5e0!3m2!1sen!2sin!4v1753528414115!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d478969.35900381405!2d77.779692!3d9.35675!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06c90047862b7b%3A0x5f09cace9a24852b!2sVM%20Crackers!5e1!3m2!1sen!2sin!4v1758265730162!5m2!1sen!2sin"
                 width="100%"
                 height="600"
                 style={{ border: 0 }}
