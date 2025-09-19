@@ -12,8 +12,8 @@ const ContactUs = () => {
       <MetaTags
         title="Contact Us - VM crackers - Whole sale Crackers"
         type="website"
-        siteName="vmcrackers.zentexus.in"
-        url="https://vmcrackers.zentexus.in/contactus"
+        siteName="vmcrackers.in"
+        url="https://vmcrackers.in/contactus"
         keywords="Contact Us | VM Crackers  "
         description="Contact for wholesale Crackers and Retail Crackers"
         revisitAfter="10 Days"

@@ -11,8 +11,8 @@ const SafetyTipsOne = () => {
       <MetaTags
         title="Safety Tips - VM Crackers - Whole sale Crackers"
         type="website"
-        siteName="vmcrackers.zentexus.in"
-        url="https://vmcrackers.zentexus.in/safetytips"
+        siteName="vmcrackers.in"
+        url="https://vmcrackers.in/safetytips"
         keywords="Safety Tips | VM Crackers | Fireworks Safety"
         description="Learn essential safety tips for handling fireworks VM Crackers."
         revisitAfter="10 Days"
@@ -196,8 +196,8 @@ const SafetyTipsTwo = () => {
       <MetaTags
         title="Safety Tips - VM Crackers - Whole sale Crackers"
         type="website"
-        siteName="vmcrackers.zentexus.in"
-        url="https://vmcrackers.zentexus.in/safetytips"
+        siteName="vmcrackers.in"
+        url="https://vmcrackers.in/safetytips"
         keywords="Safety Tips | VM Crackers | Fireworks Safety"
         description="Learn essential safety tips for handling fireworks VM Crackers."
         revisitAfter="10 Days"

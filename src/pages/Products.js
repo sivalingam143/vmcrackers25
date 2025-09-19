@@ -42,8 +42,8 @@ const Products = () => {
       <MetaTags
         title="Crackers Price List | VM Crackers | Best Crackers Shops"
         type="website"
-        siteName="vmcrackers.zentexus.in"
-        url="https://vmcrackers.zentexus.in/products"
+        siteName="vmcrackers.in"
+        url="https://vmcrackers.in/products"
         keywords="Wholesale Crackers | VM Crackers | Retails Crackers | Including sparklers, rockets, and more | Celebrate Diwali with affordable and exciting crackers"
         description="Find the best deals on a wide variety of fireworks"
         revisitAfter="10 Days"
