@@ -112,19 +112,11 @@ const Footer = () => {
               </Col>
 
               {/* QR Code */}
-              <Col lg={3} md={12} xs={12} className="text-center">
+              <Col lg={6} md={12} xs={12} className="text-center">
                 <h5>Scan to Pay</h5>
                 <img
                   src={require("../../assets/images/gpay2.jpeg")}
                   alt="gpay-scanner"
-                  className="footer-qr"
-                />
-              </Col>
-              <Col lg={3} md={12} xs={12} className="text-center">
-                <h5>Scan to Pay</h5>
-                <img
-                  src={require("../../assets/images/phonepae.jpeg")}
-                  alt="Phonepae-scanner"
                   className="footer-qr"
                 />
               </Col>
