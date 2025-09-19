@@ -399,7 +399,7 @@ const Home = () => {
             </Row>
           </Container>
         </div>
-        <div className="terms-section advanced-bg position-relative">
+        {/* <div className="terms-section advanced-bg position-relative">
           <Container>
             <Row>
               <Col lg="12" className="text-center py-5">
@@ -439,7 +439,7 @@ const Home = () => {
               </Col>
             </Row>
           </Container>
-        </div>
+        </div> */}
 
         {/* sale bg end*/}
         <Footer />
