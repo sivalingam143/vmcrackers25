@@ -1,0 +1,89 @@
+.home-product {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.home-product:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  transition: 0.15s ease-in-out;
+}
+.home-product-name {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  text-align: left;
+  padding: 30px 30px;
+}
+
+.counter {
+  background-image: url("../assets/images//homeparallax.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.z {
+  position: relative;
+  z-index: 2;
+}
+
+.padding {
+  padding: 90px 0;
+}
+
+.bg-overlay::before {
+  background: #000000ab none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.counter-box {
+  font-size: 40px;
+  font-family: "bold";
+  color: #fff !important;
+}
+.whywe {
+  background-image: url(https://gurubhagavancrackers.com/images/whyus.png);
+}
+.pad {
+  padding: 90px 0;
+}
+.why {
+  background-color: wheat;
+  box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+  padding: 25px 30px 25px;
+  position: relative;
+  transition: 0.5s;
+  max-width: 380px;
+  margin-bottom: 75px;
+}
+.why:hover {
+  background: #ed9412;
+  transform: translateY(-20px);
+  border-radius: 30px;
+  transition: 0.5s;
+  color: wheat;
+}
+.flipInX {
+  animation-name: flipInX;
+}
+
+
+
+.marleft {
+  margin-left: 50px;
+}

@@ -1,0 +1,14 @@
+.shop-now{
+    background-color: #ff1616!important;
+    border: 2px solid #ff1616!important;
+    padding: 12px 24px;
+    font-family: 'bold';
+    transition: 1s all;
+    border-radius: 12px !important;
+}
+.shop-now:hover{
+    border: 2px solid #ff1616 !important;
+    background: none !important;
+    transition: 1s all;
+    border-radius: 12px !important; 
+}

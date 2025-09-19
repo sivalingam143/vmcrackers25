@@ -1,0 +1,44 @@
+/* productone start */
+.padding{
+    padding: 90px 0;
+}
+.product_background{
+    background-image: url('../assets/images/homeproducts/homeproducts_three/homeparallax.webp');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-product-box{
+    overflow: hidden;
+    border: 1px solid #DDD;
+    transition: 1.5s ease-in-out;
+    position: relative;
+    max-width: 280px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.home-product-box{
+    box-shadow: 0px 24px 27px 0px rgba(0, 27, 54, 0.1)
+}
+.home-product-box::before{position: absolute;
+    left: 0;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-image: url(../assets/images/blob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    content: "";
+    opacity: .50;}
+    .hm-product img{
+        transition: 0.6s ease-in-out;
+        z-index: 1;
+        position: relative
+    }
+    .home-product-box:hover{
+        box-shadow: 0px 24px 27px 0px rgba(0, 27, 54, 0.1);
+    background-color: #fff;
+    transform: scale(1.05);
+    }

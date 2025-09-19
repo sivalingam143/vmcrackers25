@@ -1,0 +1,259 @@
+.title {
+  padding: 12px 30px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "bold";
+}
+.bg-green {
+  background-color: #038403;
+}
+.bg-red {
+  background-color: red;
+}
+.safe-list {
+  display: flex;
+  align-items: center;
+}
+.safe-icon svg {
+  font-size: 37px;
+}
+.box-green {
+  background-color: green;
+  border-radius: 8px;
+  padding: 12px;
+  color: #ffffff;
+  margin: 10px 0;
+  font-family: "regular";
+  height: 100px;
+}
+.box-red {
+  background-color: red;
+  border-radius: 8px;
+  padding: 12px;
+  color: #ffffff;
+  margin: 10px 0;
+  font-family: "regular";
+  height: 100px;
+}
+.box {
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "regular";
+}
+.box-icon {
+  background-color: #ed9412;
+  padding: 12px;
+  display: inline-block;
+  margin: 12px auto;
+}
+.box-icon svg {
+  color: #fff !important;
+}
+/* counter start */
+.counter-box {
+  font-size: 40px;
+  font-family: "bold";
+  color: #ff1616;
+}
+.counter {
+  background-color: #130075;
+}
+/* counter end */
+/* prdoucts start */
+.home-product {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.home-product:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+  transition: 0.15s ease-in-out;
+}
+.home-product-name {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  text-align: left;
+  padding: 30px 30px;
+}
+/* sale bg start*/
+.salebg {
+  background-color: #ff151b;
+  padding: 50px 0;
+  color: #ffffff;
+}
+/* sale bg  end*/
+/* about start */
+.brd {
+  border-radius: 100%;
+}
+.choose {
+  background: #ff1616;
+  color: #fff;
+  padding: 16px;
+  border-radius: 50px;
+  font-size: 18px;
+  height: 280px;
+}
+.choose-icon {
+  background-color: #ff1616;
+  padding: 16px;
+  border-radius: 10px;
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+.choose svg path {
+  stroke: #ffffff;
+}
+
+.counter-bg {
+  background: #ff1616;
+  color: #ff1616;
+  padding: 20px;
+  border-radius: 20px;
+}
+.counter-bg_two {
+  background: #ff1616;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* footer css */
+.fixed {
+  position: fixed;
+  z-index: 2;
+}
+.priceicn {
+  width: 45px;
+}
+.priceicn2 {
+  width: 150px;
+}
+.point {
+  bottom: 10px;
+  left: 10px;
+}
+.point3 {
+  bottom: 60px;
+  left: 10px;
+}
+.point4 {
+  bottom: 110px;
+  left: 10px;
+}
+.point5 {
+  bottom: 160px;
+  left: 10px;
+}
+.point6 {
+  bottom: 205px;
+  left: 10px;
+}
+.point1 {
+  bottom: 70px;
+  left: 10px;
+}
+.point2 {
+  bottom: 15px;
+  right: 10px;
+}
+@media (min-width: 1px) and (max-width: 767.98px) {
+  .point3 {
+    bottom: 120px;
+    left: 10px;
+  }
+  .point4 {
+    bottom: 170px;
+    left: 10px;
+  }
+  .point5 {
+    bottom: 160px;
+    left: 10px;
+  }
+  .point2 {
+    bottom: 80px !important;
+    right: 10px;
+  }
+}
+.blink img {
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+  -webkit-animation: blink 1s;
+  animation-iteration-count: 1;
+  -webkit-animation-iteration-count: infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media (min-width: 1px) and (max-width: 767.98px) {
+  .salebg::before {
+    clip-path: none;
+  }
+  .sale {
+    background-size: cover;
+  }
+}
+
+/* home start */
+.blast-one {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  top: 200px;
+  z-index: 999;
+}
+.blast-two {
+  position: fixed;
+  height: 300px;
+  width: 100px;
+  top: 200px;
+  right: 0px;
+}
+.banner-brd {
+  border-radius: 150px;
+}
+
+/******************************* saftety tips two*************************/
+.sft-icon {
+  background-color: #ed9412;
+  padding: 16px;
+  border-radius: 50px;
+  color: wheat;
+  display: inline-flex;
+}
+.red {
+  background-color: #1a85bb;
+}

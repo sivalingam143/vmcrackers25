@@ -1,0 +1,67 @@
+/* Dropdown Container */
+.animated-select .rs__control {
+  background: rgba(255, 255, 255, 0.85);
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  backdrop-filter: blur(6px);
+}
+.animated-select .rs__control:hover {
+  border-color: #e65c00;
+  box-shadow: 0 0 10px rgba(255, 102, 0, 0.4);
+}
+
+/* Placeholder */
+.animated-select .rs__placeholder {
+  color: #555;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Dropdown Menu */
+.animated-select .rs__menu {
+  transform-origin: top;
+  animation: scaleFade 0.25s ease forwards;
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ff6600;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+/* Menu Animation */
+@keyframes scaleFade {
+  0% { transform: scaleY(0.8); opacity: 0; }
+  100% { transform: scaleY(1); opacity: 1; }
+}
+
+/* Options */
+.animated-select .rs__option {
+  padding: 10px 12px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.animated-select .rs__option--is-focused {
+  background: linear-gradient(135deg, #ffebcc, #ffc266);
+  color: #b33a00;
+  transform: translateX(3px);
+  border-left: 3px solid #ff6600;
+}
+
+/* Selected Value */
+.animated-select .rs__single-value {
+  color: #333;
+  font-weight: 600;
+}
+
+/* Dropdown Indicator (Arrow) */
+.animated-select .rs__indicator {
+  color: #ff6600;
+  transition: transform 0.2s ease;
+}
+.animated-select .rs__dropdown-indicator:hover {
+  transform: rotate(180deg);
+  color: #cc5200;
+}
