@@ -33,7 +33,7 @@ const Home = () => {
       <div className="over">
         <AppBarFour />
         <img
-          src={require("../assets/sivasakthicrackersimage/homebanner.jpg")}
+          src={require("../assets/images/banner_two.jpg")}
           className="img-fluid w-100"
           alt="product name"
         />
