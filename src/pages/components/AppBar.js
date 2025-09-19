@@ -35,7 +35,7 @@ const AppBar = () => {
                       />
                     </div>
                     <div className="text-white">
-                      <h5 className="bold mt-2 mx-2">9363505881</h5>
+                      <h5 className="bold mt-2 mx-2">63698 09391</h5>
                     </div>
                   </div>
                 </Col>
@@ -46,9 +46,8 @@ const AppBar = () => {
                     speed={50}
                     delay={9}
                   >
-                    | Whatsapp : +91 93635 05881 | Mobile No : +91 80150 63808 |
-                    Phone No : +91 73050 59086 | Email :
-                    sivakasiogcrackers@gmail.com
+                    | Whatsapp : +91 63698 09391 | Mobile No : +91 89402 23892 |
+                    Phone No : +91 63698 09391 | Email : vmcrackers@gmail.com
                   </Marquee>
                 </Col>
               </Row>
@@ -58,7 +57,7 @@ const AppBar = () => {
             <Container fluid>
               <Row>
                 <Col xs="4" sm="4">
-                  <a href="https://wa.me/919363505881?text=Hello mayilvelcrackers">
+                  <a href="https://wa.me/916369809391?text=Hello vmcrackers">
                     <div className="mob-icon mx-auto">
                       <img
                         src={require("../../assets/images/whatsappicon.webp")}
@@ -69,7 +68,7 @@ const AppBar = () => {
                   </a>
                 </Col>
                 <Col xs="4" sm="4">
-                  <a href="tel:+919363505881">
+                  <a href="tel:+918940223892">
                     <div className="mob-icon mx-auto">
                       <img
                         src={require("../../assets/images/callicon.webp")}
@@ -201,7 +200,7 @@ const AppBarTwo = () => {
                       />
                     </div>
                     <div className="text-white">
-                      <h5 className="bold mt-2 mx-2">9363505881</h5>
+                      <h5 className="bold mt-2 mx-2">6369809391</h5>
                     </div>
                   </div>
                 </Col>
@@ -212,9 +211,8 @@ const AppBarTwo = () => {
                     speed={50}
                     delay={9}
                   >
-                    Whatsapp : +91 81108 07330 | Alter No : +91 93421 73125 |
-                    Alter No : +91 70105 00491 | Email :
-                    Jaslakshmicrackers@gmail.com
+                    Whatsapp : +91 63698 09391 | Alter No : +91 89402 23892 |
+                    Alter No : +91 63698 09391 | Email : vmcrackers@gmail.com
                   </Marquee>
                 </Col>
               </Row>
@@ -224,7 +222,7 @@ const AppBarTwo = () => {
             <Container fluid>
               <Row>
                 <Col xs="4" sm="4">
-                  <a href="https://wa.me/918110807330?text=Hello Jaslakshmi Crackers">
+                  <a href="https://wa.me/916369809391?text=Hello VM Crackers">
                     <div className="mob-icon mx-auto">
                       <img
                         src={require("../../assets/images/whatsappicon.webp")}
@@ -235,7 +233,7 @@ const AppBarTwo = () => {
                   </a>
                 </Col>
                 <Col xs="4" sm="4">
-                  <a href="tel:+918110807330">
+                  <a href="tel:+918940223892">
                     <div className="mob-icon mx-auto">
                       <img
                         src={require("../../assets/images/callicon.webp")}
@@ -284,9 +282,7 @@ const AppBarTwo = () => {
                   <div>
                     <h5 className="bold text-white"> Address</h5>
                     <p className="regular text-white">
-                      {" "}
-                      Sattur to Thayilpatti Road, <br />
-                      THAYILPATTI
+                      Kazhugumalai Main Road , Vembakottai
                     </p>
                   </div>
                 </div>
@@ -299,9 +295,9 @@ const AppBarTwo = () => {
                   <div class>
                     <h5 className="bold text-white"> Mobile Number</h5>
                     <div className="regular text-white">
-                      <li>+91 8110807330</li>
-                      <li>+91 9342173125</li>
-                      <li>+91 7010500491</li>
+                      <li>+91 63698 09391</li>
+                      <li>+91 89402 23892</li>
+                      <li>+91 63698 09391</li>
                     </div>
                   </div>
                 </div>
@@ -428,7 +424,7 @@ const AppBarThree = () => {
                       </Modal>
                     </>
                     <div className=" d-lg-block d-none ">
-                      <h5 className="bold mt-2 mx-2">99424 16562</h5>
+                      <h5 className="bold mt-2 mx-2">63698 09391</h5>
                     </div>
                   </div>
                 </Col>
@@ -443,7 +439,7 @@ const AppBarThree = () => {
                     Crackers Shop கு வா! சலுகை கண்ணை மூட வைக்கும், விலை பைய
                     எடுத்துவைக்கும்!" 🎆 "ஒரே ஷாப்புல வாங்குறீங்க, அனைத்து வகை
                     வெடிகளும் கிடைக்குது! தீபாவளிக்கு தீபமா வெடிக்கணும்னா – VM
-                    கு வா தம்பி!"(99424 16562)
+                    கு வா தம்பி!"(63698 09391)
                   </Marquee>
                 </Col>
               </Row>
@@ -511,7 +507,7 @@ const AppBarThree = () => {
                           color: "black",
                         }}
                       >
-                        99424 16562
+                        63698 09391
                       </div>
                     </Col>
                     <Col
@@ -733,7 +729,7 @@ const AppBarFour = () => {
                     Crackers Shop கு வா! சலுகை கண்ணை மூட வைக்கும், விலை பைய
                     எடுத்துவைக்கும்!" 🎆 "ஒரே ஷாப்புல வாங்குறீங்க, அனைத்து வகை
                     வெடிகளும் கிடைக்குது! தீபாவளிக்கு தீபமா வெடிக்கணும்னா – VM
-                    கு வா தம்பி!"(99424 16562)
+                    கு வா தம்பி!"(63698 09391)
                   </Marquee>
                 </Col>
               </Row>
@@ -758,7 +754,7 @@ const AppBarFour = () => {
                 💥 "வெடி வெடிக்க வேண்டாமா? அப்போ நேரா வா – சிவகாசி VM Crackers
                 Shop கு வா! சலுகை கண்ணை மூட வைக்கும், விலை பைய எடுத்துவைக்கும்!"
                 🎆 "ஒரே ஷாப்புல வாங்குறீங்க, அனைத்து வகை வெடிகளும் கிடைக்குது!
-                தீபாவளிக்கு தீபமா வெடிக்கணும்னா – VM கு வா தம்பி!"(99424 16562)
+                தீபாவளிக்கு தீபமா வெடிக்கணும்னா – VM கு வா தம்பி!"(63698 09391)
               </Marquee>
             </Col>
           </div>
@@ -771,7 +767,7 @@ const AppBarFour = () => {
                   <div className="address-box">
                     <h5 className="bold"> Address</h5>
                     <p className="regular">
-                      Peranayakkanpatti, Sivakasi, Tamil Nadu 626128
+                      Kazhugumalai Main Road , Vembakottai
                     </p>
                   </div>
                 </Col>
@@ -793,7 +789,7 @@ const AppBarFour = () => {
                   <div className="mobile-box">
                     <h5 className="bold">Mobile Number</h5>
                     <ul className="regular">
-                      <li>+91 99424 16562</li>
+                      <li>+91 63698 09391</li>
                     </ul>
                   </div>
                 </Col>
