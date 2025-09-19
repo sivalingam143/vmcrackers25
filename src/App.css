@@ -598,16 +598,16 @@ a {
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 40px !important;
+  padding: 10px 30px !important;
   font-family: "bold";
   font-size: 17px;
+  margin: 0 20px;
 }
 .mob-icon {
   width: 50px;
 }
 .navbar-nav .nav-link.active {
   color: black !important;
-  border-radius: 20px 0;
   background-color: #e91c26;
 }
 .over1 {
