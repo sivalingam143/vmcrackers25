@@ -777,7 +777,7 @@ const AppBarFour = () => {
                     <div className=" d-flex justify-content-center">
                       <img
                         style={{
-                          width: "150px",
+                          width: "230px",
                         }}
                         src={require("../../assets/images/Logo_updated-01.png")}
                         alt="company-logo"
