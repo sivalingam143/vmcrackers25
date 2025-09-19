@@ -10,7 +10,8 @@ import {
 const ProductController = () => {
   const [products, setProducts] = useState([]);
   const [category, setcatgory] = useState([]);
-  console.log(category);
+  console.log("category", category);
+  console.log("products", products);
   const [showCart, setShowCart] = useState(false);
   const [show, setShow] = useState(false); // State for modal visibility
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -98,11 +99,11 @@ const ProductController = () => {
       },
       body: JSON.stringify({
         search_text: "",
-        type : "website"
+        type: "website",
       }),
     })
       .then((response) => {
-          console.log(response.text);
+        console.log(response.text);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -128,7 +129,7 @@ const ProductController = () => {
       },
       body: JSON.stringify({
         search_text: "",
-         type : "website"
+        type: "website",
       }),
     })
       .then((response) => response.json())
