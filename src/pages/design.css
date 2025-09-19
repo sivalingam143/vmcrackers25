@@ -63,7 +63,7 @@
   padding: 90px 0;
 }
 .why {
-  background-color: wheat;
+  background-color: #f8f0f000;
   box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
   padding: 25px 30px 25px;
   position: relative;
@@ -72,17 +72,15 @@
   margin-bottom: 75px;
 }
 .why:hover {
-  background: #ed9412;
+  background: #f21919;
   transform: translateY(-20px);
   border-radius: 30px;
   transition: 0.5s;
-  color: wheat;
+  color: white;
 }
 .flipInX {
   animation-name: flipInX;
 }
-
-
 
 .marleft {
   margin-left: 50px;
