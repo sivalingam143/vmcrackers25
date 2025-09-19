@@ -51,7 +51,14 @@ const Products = () => {
       <div id="app-bar" className="overflow-hidden">
         <AppBarFour />
       </div>
-      <Banner banner={banner} />
+      {/* <Banner banner={banner} /> */}
+      <div>
+        <img
+          src={require("../assets/images/banner_four.jpg")}
+          className="img-fluid w-100"
+          alt="product name"
+        />
+      </div>
       <ProductController />
       <Footer />
     </>
