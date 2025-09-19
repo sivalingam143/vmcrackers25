@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       )}
       <div className="fixed point">
-        <WhatsAppButton name="Hi VM CRACKERS" phoneNumber="+91 9942416562" />
+        <WhatsAppButton name="Hi VM CRACKERS" phoneNumber="+91 )6369809391" />
       </div>
       <a href="https://maps.app.goo.gl/9mniVX5fo3YwNTSN7">
         <div className="fixed point3" style={{ cursor: "pointer" }}>
@@ -34,7 +34,7 @@ const Footer = () => {
           />
         </div>
       </a>
-      <a href="tel:+91 9942416562">
+      <a href="tel:+91 8940223892">
         <div className="fixed point4" style={{ cursor: "pointer" }}>
           <img
             src={require("../../assets/images/callicon.webp")}
@@ -91,17 +91,17 @@ const Footer = () => {
                   <p>
                     <strong>Address:</strong>
                     <br />
-                    Peranayakkanpatti, Sivakasi, Tamil Nadu 626128
+                    Kazhugumalai Main Road , Vembakottai
                   </p>
                   <p>
                     <strong>Phone:</strong>
                     <br />
-                    99424 16562
+                    89402 23892
                   </p>
                   <p>
                     <strong>Whatsapp:</strong>
                     <br />
-                    99424 16562
+                    63698 09391
                   </p>
                   <p>
                     <strong>Email:</strong>
