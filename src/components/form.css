@@ -1,14 +1,13 @@
 /* Dropdown Container */
 .animated-select .rs__control {
   background: rgba(255, 255, 255, 0.85);
-  border: 2px solid #ff6600;
+
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   backdrop-filter: blur(6px);
 }
 .animated-select .rs__control:hover {
-  border-color: #e65c00;
   box-shadow: 0 0 10px rgba(255, 102, 0, 0.4);
 }
 
@@ -24,7 +23,7 @@
   transform-origin: top;
   animation: scaleFade 0.25s ease forwards;
   background: rgba(255, 255, 255, 0.95);
-  border: 2px solid #ff6600;
+
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(4px);
@@ -32,8 +31,14 @@
 
 /* Menu Animation */
 @keyframes scaleFade {
-  0% { transform: scaleY(0.8); opacity: 0; }
-  100% { transform: scaleY(1); opacity: 1; }
+  0% {
+    transform: scaleY(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1);
+    opacity: 1;
+  }
 }
 
 /* Options */
@@ -58,10 +63,8 @@
 
 /* Dropdown Indicator (Arrow) */
 .animated-select .rs__indicator {
-  color: #ff6600;
   transition: transform 0.2s ease;
 }
 .animated-select .rs__dropdown-indicator:hover {
   transform: rotate(180deg);
-  color: #cc5200;
 }
