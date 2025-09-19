@@ -10,11 +10,11 @@ const ContactUs = () => {
   return (
     <div className="overflow-hidden">
       <MetaTags
-        title="Contact Us - MERWIN crackers - Whole sale Crackers"
+        title="Contact Us - VM crackers - Whole sale Crackers"
         type="website"
-        siteName="merwincrackers.zentexus.in"
-        url="https://merwincrackers.zentexus.in/contactus"
-        keywords="Contact Us | MERWIN Crackers  "
+        siteName="vmcrackers.zentexus.in"
+        url="https://vmcrackers.zentexus.in/contactus"
+        keywords="Contact Us | VM Crackers  "
         description="Contact for wholesale Crackers and Retail Crackers"
         revisitAfter="10 Days"
       />
@@ -34,7 +34,10 @@ const ContactUs = () => {
               <div className="box-icon">
                 <PiMapPinSimpleAreaBold size={40} color={"#000"} />
               </div>
-              <div className="bold"> Peranayakkanpatti, Sivakasi, Tamil Nadu 626128</div>
+              <div className="bold">
+                {" "}
+                Peranayakkanpatti, Sivakasi, Tamil Nadu 626128
+              </div>
             </div>
           </Col>
           <Col lg="4" className="py-3">
@@ -53,21 +56,20 @@ const ContactUs = () => {
                 <MdOutlineAlternateEmail size={40} color={"#000"} />
               </div>
               <div className="pb-4">
-                <div className="bold"> merwincrackers@gmail.com</div>
+                <div className="bold"> vmcrackers@gmail.com</div>
               </div>
             </div>
           </Col>
 
           <Col lg="12" md="12" xs="12" className="py-5">
             <>
-        
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7872.414113087703!2d77.781204!3d9.40322!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06c906a5ce2bd9%3A0x67ae173b9ac751a4!2sGuru%20Bhagavan%20Crackers!5e0!3m2!1sen!2sin!4v1753528414115!5m2!1sen!2sin"
                 width="100%"
                 height="600"
                 style={{ border: 0 }}
                 allowFullScreen
-                title="Google Maps Embed of MERWIN Crackers, Tamil Nadu"
+                title="Google Maps Embed of VM Crackers, Tamil Nadu"
               ></iframe>
             </>
           </Col>

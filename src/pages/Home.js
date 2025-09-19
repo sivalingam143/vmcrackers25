@@ -63,7 +63,7 @@ const Home = () => {
               <Col lg="12">
                 <h1 class=" bold text-center pb-5 lg-font">
                   {" "}
-                  Welcome to MERWIN Crackers
+                  Welcome to VM Crackers
                 </h1>
               </Col>
               <Col lg="6" xs={12} className="py-3 align-self-center">
@@ -86,12 +86,12 @@ const Home = () => {
                     types of occasions.{" "}
                   </p>
                   <p class="regular">
-                    At MERWIN Crackers, customer satisfaction is our top
-                    priority. Our friendly staff is always on hand to help you
-                    choose the best crackers that suit your needs. With a
-                    reputation built on trust, safety, and affordability, we
-                    have established strong relationships with our suppliers to
-                    bring you the very best in crackers.
+                    At VM Crackers, customer satisfaction is our top priority.
+                    Our friendly staff is always on hand to help you choose the
+                    best crackers that suit your needs. With a reputation built
+                    on trust, safety, and affordability, we have established
+                    strong relationships with our suppliers to bring you the
+                    very best in crackers.
                   </p>
                 </div>
               </Col>

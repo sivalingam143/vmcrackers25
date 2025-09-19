@@ -9,7 +9,7 @@ const Mark = () => {
             <Col lg="12" className="py-3">
               <div className="text-center regular ">
                 {" "}
-                Copyright © 2024,. MERWIN CRACKERS. All rights reserved{" "}
+                Copyright © 2024,. VM CRACKERS. All rights reserved{" "}
               </div>
             </Col>
           </Row>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {  useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import WhatsAppButton from "./Whatsapp";
 import { useNavigate } from "react-router-dom";
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
       )}
       <div className="fixed point">
-        <WhatsAppButton name="Hi MERWIN CRACKERS" phoneNumber="+91 9942416562" />
+        <WhatsAppButton name="Hi VM CRACKERS" phoneNumber="+91 9942416562" />
       </div>
       <a href="https://maps.app.goo.gl/9mniVX5fo3YwNTSN7">
         <div className="fixed point3" style={{ cursor: "pointer" }}>
@@ -62,41 +62,66 @@ const Footer = () => {
       <>
         <div className="footer-bg foot-pad ">
           <Container className="con">
-  <Row className="align-items-center text-white footer-row">
-    {/* Logo Section */}
-    <Col lg={3} md={12} xs={12} className="text-center text-lg-start mb-3 mb-lg-0">
-      <img
-        src={require("../../assets/images/logosm.png")}
-        alt="com-logo"
-        className="footer-logo"
-      />
-      <h5 className="mt-3">
-        Best Quality Crackers <br /> @ Whole Sale Price
-      </h5>
-    </Col>
+            <Row className="align-items-center text-white footer-row">
+              {/* Logo Section */}
+              <Col
+                lg={3}
+                md={12}
+                xs={12}
+                className="text-center text-lg-start mb-3 mb-lg-0"
+              >
+                <img
+                  src={require("../../assets/images/logosm.png")}
+                  alt="com-logo"
+                  className="footer-logo"
+                />
+                <h5 className="mt-3">
+                  Best Quality Crackers <br /> @ Whole Sale Price
+                </h5>
+              </Col>
 
-    {/* Contact Info */}
-    <Col lg={3} md={12} xs={12} className="text-center text-lg-start mb-3 mb-lg-0">
-      <div className="footer-contact">
-        <p><strong>Address:</strong><br />Peranayakkanpatti, Sivakasi, Tamil Nadu 626128</p>
-        <p><strong>Phone:</strong><br />99424 16562</p>
-        <p><strong>Whatsapp:</strong><br />99424 16562</p>
-        <p><strong>Email:</strong><br />merwincrackers@gmail.com</p>
-      </div>
-    </Col>
+              {/* Contact Info */}
+              <Col
+                lg={3}
+                md={12}
+                xs={12}
+                className="text-center text-lg-start mb-3 mb-lg-0"
+              >
+                <div className="footer-contact">
+                  <p>
+                    <strong>Address:</strong>
+                    <br />
+                    Peranayakkanpatti, Sivakasi, Tamil Nadu 626128
+                  </p>
+                  <p>
+                    <strong>Phone:</strong>
+                    <br />
+                    99424 16562
+                  </p>
+                  <p>
+                    <strong>Whatsapp:</strong>
+                    <br />
+                    99424 16562
+                  </p>
+                  <p>
+                    <strong>Email:</strong>
+                    <br />
+                    vmcrackers@gmail.com
+                  </p>
+                </div>
+              </Col>
 
-    {/* QR Code */}
-    <Col lg={6} md={12} xs={12} className="text-center">
-      <h5>Scan to Pay</h5>
-      <img
-        src={require("../../assets/images/gpay2.jpeg")}
-        alt="gpay-scanner"
-        className="footer-qr"
-      />
-    </Col>
-  </Row>
-</Container>
-
+              {/* QR Code */}
+              <Col lg={6} md={12} xs={12} className="text-center">
+                <h5>Scan to Pay</h5>
+                <img
+                  src={require("../../assets/images/gpay2.jpeg")}
+                  alt="gpay-scanner"
+                  className="footer-qr"
+                />
+              </Col>
+            </Row>
+          </Container>
         </div>
 
         <>
@@ -106,7 +131,7 @@ const Footer = () => {
                 <Col lg="12" className="py-3">
                   <div className="text-center regular">
                     {" "}
-                    Copyright © 2025,MERWIN Crackers. All rights reserved{" "}
+                    Copyright © 2025,VM Crackers. All rights reserved{" "}
                   </div>
                 </Col>
               </Row>

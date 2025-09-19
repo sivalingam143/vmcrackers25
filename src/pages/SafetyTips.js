@@ -9,12 +9,12 @@ const SafetyTipsOne = () => {
   return (
     <div>
       <MetaTags
-        title="Safety Tips - MERWIN Crackers - Whole sale Crackers"
+        title="Safety Tips - VM Crackers - Whole sale Crackers"
         type="website"
-        siteName="merwincrackers.zentexus.in"
-        url="https://merwincrackers.zentexus.in/safetytips"
-        keywords="Safety Tips | MERWIN Crackers | Fireworks Safety"
-        description="Learn essential safety tips for handling fireworks MERWIN Crackers."
+        siteName="vmcrackers.zentexus.in"
+        url="https://vmcrackers.zentexus.in/safetytips"
+        keywords="Safety Tips | VM Crackers | Fireworks Safety"
+        description="Learn essential safety tips for handling fireworks VM Crackers."
         revisitAfter="10 Days"
       />
       <AppBarFour />
@@ -30,7 +30,7 @@ const SafetyTipsOne = () => {
               <h1 className="text-center bold">Safety Tips</h1>
             </Col>
             <Col lg="12" className="py-3">
-              <h1 className="text-center bold">MERWIN Crackers</h1>
+              <h1 className="text-center bold">VM Crackers</h1>
             </Col>
 
             <Col lg="12" className="py-3">
@@ -194,12 +194,12 @@ const SafetyTipsTwo = () => {
   return (
     <>
       <MetaTags
-        title="Safety Tips - MERWIN Crackers - Whole sale Crackers"
+        title="Safety Tips - VM Crackers - Whole sale Crackers"
         type="website"
-        siteName="merwincrackers.zentexus.in"
-        url="https://merwincrackers.zentexus.in/safetytips"
-        keywords="Safety Tips | MERWIN Crackers | Fireworks Safety"
-        description="Learn essential safety tips for handling fireworks MERWIN Crackers."
+        siteName="vmcrackers.zentexus.in"
+        url="https://vmcrackers.zentexus.in/safetytips"
+        keywords="Safety Tips | VM Crackers | Fireworks Safety"
+        description="Learn essential safety tips for handling fireworks VM Crackers."
         revisitAfter="10 Days"
       />
       <AppBarFour />
@@ -298,8 +298,8 @@ const SafetyTipsTwo = () => {
                   <PiSmileySadBold size={26} />
                 </div>
                 <div>
-                  <h4 className="bold">Don't mMERWINe tricks</h4>
-                  <p>Never mMERWINe your own fireworks.</p>
+                  <h4 className="bold">Don’t place near candles</h4>
+                  <p>Don’t store firecrackers near burning candles or lamps.</p>
                 </div>
               </div>
               <div className="text-lg-end text-left my-3">
