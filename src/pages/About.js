@@ -65,7 +65,7 @@ const About = () => {
               </Col>
               <Col lg="6" className="py-3 text-center">
                 <img
-                  src={require("../assets/images/about.png")}
+                  src={require("../assets/sivasakthicrackersimage/crackerscenter.webp")}
                   className="img-fluid"
                   alt="product"
                 />
