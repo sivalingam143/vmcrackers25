@@ -103,11 +103,11 @@ const Footer = () => {
                     <br />
                     63698 09391
                   </p>
-                  <p>
+                  {/* <p>
                     <strong>Email:</strong>
                     <br />
                     vmcrackers@gmail.com
-                  </p>
+                  </p> */}
                 </div>
               </Col>
 
@@ -139,7 +139,7 @@ const Footer = () => {
                 <Col lg="12" className="py-3">
                   <div className="text-center regular">
                     {" "}
-                    Copyright © 2025,VM Crackers. All rights reserved{" "}
+                    Copyright © 2024,VM Crackers. All rights reserved{" "}
                   </div>
                 </Col>
               </Row>
